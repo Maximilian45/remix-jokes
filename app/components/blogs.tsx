@@ -1,4 +1,4 @@
-export default function blogs({ title, text }: any) {
+export default function Blogs({ title, text }: any) {
   return (
     <div className="border-2 border-black ">
       <h1 className="text-[25px]">{title}</h1>

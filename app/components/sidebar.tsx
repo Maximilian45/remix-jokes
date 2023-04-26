@@ -7,6 +7,8 @@ export default function Sidebar() {
       <Button to="/countries">Countries</Button>|<Button to="/">Blog</Button>|
       <Button to="/about">About</Button>
       <Button to="/crypto">Cryptos</Button>
+      <Button to="/calc">Calc</Button>
+      <Button to="/gästebuch">Gästebuch</Button>
       <img className="h-32" src="https://jooinn.com/images/globe-logo-4.jpg" />
     </div>
   );

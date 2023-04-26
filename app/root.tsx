@@ -25,8 +25,10 @@ export default function App() {
         <Links />
       </head>
       <body className="">
-        <div className="flex flex-row min-h-screen">
-          <Sidebar />
+        <div 
+        className="flex flex-row min-h-screen">
+          <Sidebar
+          />
 
           <div className="h-full h-full w-full ">
             <Outlet />
